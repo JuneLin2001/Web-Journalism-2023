@@ -17,3 +17,8 @@ path:hover {
   fill: var(--color-gold);
   transform: translate(-5px, -5px);
 }
+
+/* 用德州測試，單獨州可以擁有自己的CSS，可以用不同顏色等 */
+.tx:hover{ 
+  fill:#ff0000
+}
