@@ -14,13 +14,7 @@
   .state {
     fill: #ffffff;
   }
-.custum-col {
-  height: 30px;
-}
 
-.top-bar{
-  margin-bottom: 20px;
-}
   path {
     stroke: white;
     fill: transparent;

@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.section_bar{
+    height: 100px;
+    left:50%;
+    z-index: 1000;
+    background-color: #bdcdbf;
+    position:sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h3{
+    top: 50%;
+    left: 50%;
+    font-family: cwTeXYen;
+    font-size: 40px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+.title_bar{
+    justify-content: center;
+    align-items: center;
+}
+.text_bar{
+    margin-top: 100px;
+    padding: 0px 330px 0px 330px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.text_bar img{
+    position: relative;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    height: 850px;
+    width: auto;
+}
+.text_bar h1{
+    width: 100%;
+    padding: 5%;
+    font-family: cwTeXYen;
+    font-size:60px;
+    color: rgb(0, 0, 0)
+}
+.text_bar h3{
+    width: 100%;
+    font-family: cwTeXYen;
+    font-size:40px;
+    font-weight: bold;
+    color: rgb(0, 0, 0)
+}
+.text_bar li{
+    width: 100%;
+    font-family: cwTeXYen;
+    font-size:30px;
+
+}
+.text_bar p{
+    margin: 10px;
+    width: 100%;
+    padding: 5%;
+    font-family: cwTeXYen;
+    font-size: 30px;
+}
+.text_bar .section_bar{
+    display: flex ;
+    flex-direction: column;
+}
+.A_jump{
+    width: 100%;
+    padding: 50px;
+    color: #bdcdbf;
+    font-family: cwTeXYen;
+    font-size:30px;
+}
